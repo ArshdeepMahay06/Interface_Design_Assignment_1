@@ -1,4 +1,4 @@
-/* Font Families */
+/* Font Families that I will use in the Website*/
 @font-face {
   font-family: nameDisplay;
   src: url(../Fonts/varsity_regular.ttf);
@@ -22,16 +22,19 @@
 
 /* Stying of herder which will contain logo of the Song */
 
+/* Giving body a background color matching to the Background color of the Poster of the Song */
 body{
   background-color: #1f1b24;
   font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* How the color of the Text would Behave if I select it */
 a::selection,span::selection,p::selection{
 	background-color:#1f1b24;
 	color:#e9a123;
 }
 
+/* Styling of Header which I would make a flex container */
 header{
   background-color:#3C3D37;
   height: 100px;
@@ -89,6 +92,7 @@ header menu li:last-child::after{
   min-height: 70vh;
 }
 
+/* Styling of Heading in Mast-head */
 .masthead h1{
   color: #ECDFCC;
   height: 15vh;
@@ -106,6 +110,7 @@ header menu li:last-child::after{
   line-height: 1;
 }
 
+/* Styling of inserted IFrame */
 .masthead iframe{
   width: 100%;
   height: calc(100vh - 160px - 8vh);
@@ -135,6 +140,7 @@ header menu li:last-child::after{
   font-size: 1.5em;
   letter-spacing: 1.4px;
   word-spacing: 2px;
+  /* Giving a font-familt to the Paragraph */
   font-family: paragraphFont1;
 }
 
